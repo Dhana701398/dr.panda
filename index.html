@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link href="./output.css" rel="stylesheet">
   <style>
     .img{
@@ -11,6 +12,8 @@
         height: 112vh;
       background-size: cover;
        margin-top: -100px;
+        
+    
     }
     .img1{
       background-image: linear-gradient(180deg, #ffff 0%, #ccb3b39e 100%);
@@ -47,14 +50,16 @@
       background-size: cover;
       height: 800px;
   }
+ 
   </style>
 </head>
 <body>
-    <section class="img">
-  <header class="pt-40  ">
+    <section class="img   ">
+   
+  <header class="pt-40   ">
     <nav class="flex  items-center  justify-around mr-16   text-lg font-thin   p-2"  >
         <div class="flex items-center">
-        <div class="flex justify-center  gap-11 items-center  bg-white mr-9 p-1    ">
+        <div class="flex justify-center  gap-11 items-center  bg-white mr-9 p-1  border-l-4 border-[#65bdc2]   ">
           <img src="src/asscets/images/wl.png" alt=""  class="w-28 "> 
             <a href=""  class="hover:text-slate-500">HOME</a>
             <a href=""  class="hover:text-slate-500">ABOUT</a>
@@ -64,7 +69,7 @@
             <a href=""  class="hover:text-slate-500 pr-6">CONTACT</a>
              </div>
             <div>
-              <button class="border-2  px-11 py-5 bg-[#65bdc2] border-[#65bdc2]  hover:bg-[#49d1d8]  text-white font-semibold">Book Now</button>
+              <button class="border-2  px-11 py-5 bg-[#65bdc2]   hover:bg-[#49d1d8]  text-white  font-semibold border-[#65bdc2] ">Book Now</button>
             </div>
           </div>
     </nav>
@@ -93,7 +98,7 @@
   </section>
   <section class="img1">
     <h1 class="text-4xl font-semibold text-center mt-24 ">All Facilities</h1>
-    <div class="flex gap-20 text-lg  ml-44  text-center font-serif mt-16 mb-16" >
+    <div class="flex gap-20 text-lg  ml-52  text-center font-serif mt-16 mb-16" >
        <div>
         <img src="src/asscets/images/ecg.jpg" alt="" class="w-16 ml-3 mb-3 ">
         <h1>ECG</h1>
@@ -151,7 +156,7 @@
       </div>
     </div>
   </section>
-  <section >
+  <section  >
     <div class="img4 mt-28">
       <div class="flex p-16 pt-20   " >
         <div style="background-image: linear-gradient(90deg, #65BDC2 0%, #0E3055 100%); width: 400px;" 
@@ -183,28 +188,29 @@
       </div>
     </div >
   </section>
-  <section class="bg-gray-200">
-    <div class="text-center mt-20 mb-6 ">
-    <button class="border-2 bg-[#65bdc2]  border-[#65bdc2] rounded-md text-white px-3 mt-10 ">NEWS & EVENTS</button></div>
-    <h1 class="text-center font-serif text-6xl pb-7">Stay Informed</h1>
-  <div class="flex">
-  <div class="flex ">
+  <section class="bg-gray-100 pb-24  ">
+    <div class="text-center   mb-3">
+    <button class="border-2 bg-[#65bdc2]  border-[#65bdc2] rounded-md text-white px-3 mt-10 ">NEWS & EVENTS</button>
+  </div>
+    <h1 class="text-center font-serif text-6xl pb-10 ">Stay Informed</h1>
+  <div class="flex ml-10">
+  <div class="flex  mb-6">
     <div> 
-      <img src="src/asscets/images/W8.png" alt="" class="w-80 ">
+      <img src="src/asscets/images/W8.png" alt="" class="w-80  h-[66vh]">
     </div>
-    <div class="pl-6 bg-white  w-80 h-96">
-      <h2 class="pt-12 pb-3 "><mark> Sep - Standard</mark></h2>
+    <div class="pl-10 bg-white  w-80    ">
+      <h2 class="pt-24 pb-3 "><mark> Sep - Standard</mark></h2>
       <p class="text-2xl font-serif pb-5">Advanced <br>Intracoronary<br> Therapies</p>
-      <p class="text-lg  pb-1">Advanced intracoronary<br> therapies have <br>revolutionized the landscape of<br> cardiovascular medicine.</p>
+      <p class="text-lg  pb-1">Advanced intracoronary<br> therapies have <br>revolutionized the<br> landscape of<br> cardiovascular medicine.</p>
       <button class="bg-[#65bdc2]  border-2  border-[#65bdc2]  text-white px-3">Read More</button>
     </div>
     </div>
-    <div class=" flex ml-20 ">
+    <div class=" flex ml-10  ">
       <div>
-        <img src="src/asscets/images/w9.png" alt="" class="w-80  " style="box-sizing: border-box;">
+        <img src="src/asscets/images/w9.png" alt="" class="w-80  h-[69vh]" >
       </div>
-      <div class="pl-6  bg-white p-5  w-80 ">
-         <h2 class="pt-2 pb-3 "><mark> Sep - Standard</mark></h2>
+      <div class="pl-12  bg-white p-5  w-80  ">
+         <h2 class="pt-10 pb-3 "><mark> Sep - Standard</mark></h2>
          <p  class="text-2xl font-serif  pb-5">Structural<br> Heart<br> Interventions</p>
          <p class="text-lg  pb-3">Structural heart<br> interventions represent a <br>rapidly evolving field in <br>cardiology, 
           offering<br> minimally invasive<br> solutions for a diverse<br> array of structural heart<br> diseases.</p>
@@ -212,6 +218,87 @@
       </div>
     </div>
     </div>
+    <div class="flex ml-10">
+    <div class="flex">
+     <div>
+      <img src="src/asscets/images/w10.png" alt=""  class="w-80   h-[75vh]" >
+     </div>
+   
+      <div  class="pl-12  bg-white p-5  w-80 "  >
+          <h2 class=" pt-14 pb-3"><mark> 8 MAR- STANDARD</mark></h2>
+         <p  class="text-2xl font-serif  pb-5">Coronary<br> Angiography<br> and  <br>Angioplasty</p>
+         <p class="text-lg  pb-3">Cardiovascular diseases<br> remain a leading cause <br>of mortality worldwide,
+          <br> underscoring the critical<br>importance of<br> advancements in cardiac<br> care.</p>
+          <button class="bg-[#65bdc2]  border-2  border-[#65bdc2]  text-white px-3">Read More</button>
+      </div>
+      </div>
+      <div class="flex ml-10 mt-8   ">
+        <div>
+        <img src="src/asscets/images/w11.png" alt="" class="w-80   h-[71vh]">
+        </div>
+        <div  class="pl-12  bg-white p-5  w-80 " >
+             <h2 class="pt-14 pb-3 "><mark> 8 MAR- STANDARD</mark></h2>
+             <p class="text-2xl font-serif  pb-5">Imaging-<br>guided <br>Precision PCI</p>
+             <p class="text-lg  pb-5">In the field of<br> interventional cardiology,<br> precision
+               Percutaneous<br> Coronary Intervention <br>(PCI) has emerged as a<br> paradigm-shifting <br>approach.</p>
+               <button class="bg-[#65bdc2]  border-2  border-[#65bdc2]  text-white px-3">Read More</button>
+        </div>
+      </div>
+    </div>
+  
   </section>
+
+  <footer class=" bg-slate-500  ">
+    <div class="flex ml-32 pb-7">
+      <div class="ml-11 mt-20 mr-32">
+         <img src="src/asscets/images/wl.png" alt=""  class="w-36"> 
+         <div class="pt-4 ">
+          <i class="fa-brands fa-facebook fa-2x text-white hover:text-black "></i>
+          <i class="fa-brands fa-youtube fa-2x text-white hover:text-black"></i>
+          <i class="fa-brands fa-linkedin fa-2x text-white hover:text-black"></i>
+          <i class="fa-brands fa-instagram fa-2x text-white hover:text-black"></i>
+         </div>
+      </div>
+      <div class="mt-10 mr-28 " >
+        <h1 class="font-serif text-2xl text-center pb-5 text-white">Contact</h1>
+        <div class="flex text-white hover:text-black"">
+          <i class="fa-solid fa-phone pt-1 pr-7"></i>
+          <p class=" pb-2   ">+91 8897355655</p>
+        </div>
+        <div class="flex  text-white hover:text-black">
+          <i class="fa-solid fa-message pt-2 pr-7 mb-2"></i>
+          <p class="font-serif pb-2 " > drpandasheartcare@gmail.com</p>
+        </div>
+        <div class="flex   text-white    hover:text-black">
+          <i class="fa-solid fa-house pr-7    mt-1"></i>
+          <p class="font-serif pb-2"> Chambers 1 & 5 ,Sri Krishna Multispecialty <br>
+          Clinic ,opposite Task Force Office, near A S<br>
+        Raja Circle ,Sector 10,MVP Colony,<br>
+      Vishakapatnam,Andhra pradesh 530017</p>
+        </div>
+      </div>
+      <div class="mt-10 mr-16">
+        <h2 class="font-serif text-2xl   pb-3  pl-28 text-white">Gallery</h2>
+        <div class="w-24  flex">
+          <img src="src/asscets/images/w12.jpg" alt="" class="mr-4">
+          <img src="src/asscets/images/w13.jpg" alt="" class="mr-4">
+          <img src="src/asscets/images/w14.jpg" alt="" class="mr-4">
+        </div>
+        <div class="w-24 flex mt-5">
+          <img src="src/asscets/images/w15.jpg" alt="" class="mr-4 ">
+          <img src="src/asscets/images/w16.jpg" alt="" class="mr-4">
+          <img src="src/asscets/images/w17.jpg" alt="" class="mr-4 ">
+        </div>
+        <div  class="w-24 flex mt-5 ">
+          <img src="src/asscets/images/w18.jpg" alt="" class="mr-4 ">
+          <img src="src/asscets/images/w19.jpg" alt="" class="mr-4 ">
+          <img src="src/asscets/images/w20.jpg" alt="" class="mr-4 ">
+        </div>
+      </div>
+    </div>
+    <div class="w-full bg-slate-900 text-white text-center font-serif"> 
+        Copyright 2024 VulcanTechs
+    </div>
+  </footer>
 </body>
 </html> 
